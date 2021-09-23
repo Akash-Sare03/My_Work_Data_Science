@@ -1,8 +1,5 @@
 /*
 Covid 19 Data Exploration 
-
-Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
-
 */
 
 Select *
@@ -34,7 +31,7 @@ order by 1,2
 
 Select Location, date, Population, total_cases,  (total_cases/population)*100 as PercentPopulationInfected
 From PortfolioProject..CovidDeaths
---Where location like '%states%'
+--Where location like '%India%'
 order by 1,2
 
 
